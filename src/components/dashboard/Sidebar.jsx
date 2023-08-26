@@ -11,7 +11,9 @@ const Sidebar = ({ menuOpen, setMenuOpen }) => {
     <>
       <div className={'sidebar ' + (menuOpen && 'active')}>
         <div className={'bars ' + (menuOpen && 'active')}>
-          <h4>Logo</h4>
+          <h4>
+            <img src="/images/logoJafont.png" width="80px" alt="" className="logo" />
+          </h4>
           <FaBars onClick={() => setMenuOpen(!menuOpen)} />
         </div>
         <h3>Dashboard Menu</h3>

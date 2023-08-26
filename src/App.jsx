@@ -17,6 +17,9 @@ import ChangePassword from './pages/dashboard user/ChangePassword';
 import Purchases from './pages/dashboard user/Purchases';
 import TokoPages from './pages/tokopages/TokoPages';
 import TokoAbout from './pages/tokopages/TokoAbout';
+import About from './pages/company/About';
+import Privacy from './pages/company/Privacy';
+import TermsCondition from './pages/company/TermsCondition';
 
 function App() {
   const Layout = () => {
@@ -49,6 +52,18 @@ function App() {
         {
           path: '/blogs/:slug',
           element: <BlogPages />,
+        },
+        {
+          path: '/about',
+          element: <About />,
+        },
+        {
+          path: '/privacy',
+          element: <Privacy />,
+        },
+        {
+          path: '/terms-condition',
+          element: <TermsCondition />,
         },
         {
           path: '/detail/:slug',

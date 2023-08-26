@@ -329,7 +329,7 @@
   align-items: center;
   padding: 0px 30px;
   height: 80px;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.2rem 1rem #0000001a !important;
 
   .itemsRight {
     display: flex;
@@ -360,7 +360,7 @@
   width: 300px;
   background-color: #fff;
   min-height: 100%;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.2rem 1rem #0000001a !important;
 
   .bars {
     display: flex;
@@ -403,6 +403,7 @@
       color: inherit;
       padding: 2px 15px;
       transition: 0.4s all ease-in-out;
+      margin-bottom: 10px;
 
       svg {
         font-size: 19px;
@@ -440,6 +441,7 @@
 .saveBtn {
   padding: 8px 30px;
   margin-top: 20px;
+  width: 120px;
   border: none;
   background-color: #19c3d4;
   font-weight: 600;

@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
-import { categories } from '../data';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import { BiSearch } from 'react-icons/bi';
 import { FaCartArrowDown } from 'react-icons/fa';
+import { categories } from '../data';
+
 import SignUpModal from './auth/SignUpModal';
 import LoginModal from './auth/LoginModal';
+import NavMobile from './NavMobile';
+import NavbarOffcanvas from './NavbarOffcanvas';
 
 const Navbar = () => {
   const currentUser = {
@@ -59,61 +62,9 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <div className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabIndex={-1} id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasScrollingLabel">
-            Logo
-          </h5>
-          <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
-        </div>
-        <div className="offcanvas-body">
-          <ul className="list-group mb-2">
-            {categories?.map((c) => (
-              <li key={c.id} className="list-group-item">
-                {c.name}
-              </li>
-            ))}
-          </ul>
+      <NavbarOffcanvas />
 
-          <div className="searchInput">
-            <input type="text" placeholder="search milions fonts" />
-            <BiSearch />
-          </div>
-
-          <div className="menuNav">
-            <div className="menuItems">
-              <button className="login" data-bs-toggle="modal" data-bs-target="#loginmodal">
-                Login
-              </button>
-              <button className="signup" data-bs-toggle="modal" data-bs-target="#signupmodal">
-                Sign Up
-              </button>
-            </div>
-            <FaCartArrowDown />
-          </div>
-        </div>
-      </div>
-
-      <nav className="mobile">
-        <ul>
-          <li>
-            <img src="/icons/house.svg" alt="" />
-          </li>
-
-          <li>
-            <img src="/icons/heart.svg" alt="" />
-          </li>
-          <li>
-            <img src="/icons/search-black.svg" alt="" />
-          </li>
-          <li>
-            <img src="/icons/bag-2.svg" alt="" />
-          </li>
-          <li>
-            <img src="/icons/user.svg" alt="" />
-          </li>
-        </ul>
-      </nav>
+      <NavMobile />
       <SignUpModal />
       <LoginModal />
     </>

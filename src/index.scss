@@ -563,7 +563,7 @@ body::-webkit-scrollbar {
 
   ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: baseline;
     list-style: none;
     width: 100%;
@@ -571,20 +571,18 @@ body::-webkit-scrollbar {
 
     margin: 0rem;
     padding-left: 0px;
-    padding: 10px 0px;
+    padding: 10px 20px;
 
     li {
       padding: 10px;
-      img {
-        width: 30px;
-        height: 30px;
+      svg {
+        font-size: 23px;
       }
-    }
-
-    li:hover {
-      background-color: #19c3d4;
-      border-radius: 50%;
-      transition: all 0.5s ease-in;
+      svg:hover {
+        color: #19c3d4;
+        border-radius: 50%;
+        transition: all 0.5s ease-in;
+      }
     }
   }
 }
@@ -599,10 +597,10 @@ body::-webkit-scrollbar {
     .list-group-item {
       border: none;
       margin-bottom: 3px;
-    }
 
-    .list-group-item.active {
-      background-color: #19c3d4;
+      .link.active {
+        color: #19c3d4;
+      }
     }
   }
 
@@ -640,110 +638,7 @@ body::-webkit-scrollbar {
 
 // akhir navbar scss
 
-// hero scss
-
-.heroSection {
-  margin-top: 100px;
-  .container {
-    .row {
-      .col-md-5 {
-        img {
-          width: 494px;
-          height: 490px;
-        }
-      }
-      .col-md-7 {
-        h1 {
-          color: #000;
-          text-align: center;
-
-          font-size: 60px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal;
-        }
-
-        .heroSearchInput {
-          display: flex;
-          align-items: center;
-          margin-top: 40px;
-          margin-bottom: 40px;
-
-          input {
-            border-radius: 30px;
-            outline: none;
-            border: none;
-            width: 100%;
-            padding: 15px 60px;
-            color: #adabab;
-            background-color: #f4f4f4;
-          }
-
-          svg {
-            position: absolute;
-            margin-left: 20px;
-            font-size: 26px;
-            color: #adabab;
-            cursor: pointer;
-          }
-        }
-
-        .menuCategories {
-          display: flex;
-          align-items: center;
-          gap: 15px;
-
-          button {
-            border: 1px solid #dfdfdf;
-            padding: 10px 20px;
-            border-radius: 30px;
-            background-color: #fff;
-          }
-        }
-      }
-    }
-  }
-}
-
-// akhir hero scss
-// menu trending categories scss
-.TrendingCategories {
-  margin-top: 100px;
-  .container {
-    .row {
-      --bs-gutter-x: 0rem;
-      h2 {
-        color: #000;
-        font-size: 27px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin-bottom: 20px;
-      }
-      .col-md-3,
-      .col-6 {
-        margin-bottom: 20px;
-        .card {
-          border-radius: 20px;
-          border: 1px solid #0002;
-          cursor: pointer;
-          padding: 10px;
-          span {
-            color: #000;
-            text-align: center;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-            margin-top: 10px;
-          }
-        }
-      }
-    }
-  }
-}
-// akhir menu trending categories scss
-// popular
+// Fonts
 .Fonts {
   margin-top: 40px;
   .container {
@@ -775,7 +670,7 @@ body::-webkit-scrollbar {
     }
   }
 }
-// akhir popular
+// akhir Fonts
 // Blogs
 
 .blogsSlide {
@@ -1411,10 +1306,14 @@ body::-webkit-scrollbar {
     color: #000;
     font-size: 48px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
     text-align: center;
     margin-bottom: 50px;
+  }
+
+  hr {
+    border: 1px solid #0007;
   }
 
   .container {
@@ -1687,12 +1586,20 @@ body::-webkit-scrollbar {
           display: flex;
           gap: 10px;
           flex-direction: column;
-          span {
+          a {
             color: #000;
-            font-size: 17px;
+            font-size: 16px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+          }
+          a:hover {
+            color: #19c3d4;
+            cursor: pointer;
+            transition: all 0.4s ease-in-out;
+          }
+          .link.active {
+            color: #19c3d4;
           }
         }
       }
@@ -1702,10 +1609,6 @@ body::-webkit-scrollbar {
 // akhir footer
 
 @media only screen and (max-width: 1400px) {
-  .heroSection .container .row .col-md-5 img {
-    width: 90%;
-    height: 100%;
-  }
   .searchInput input {
     width: 700px;
   }
@@ -1748,22 +1651,14 @@ body::-webkit-scrollbar {
 }
 
 @media only screen and (max-width: 991px) {
-  .heroSection .container .row .col-md-7 h1 {
-    font-size: 60px;
-    text-align: left;
-  }
   .blogs {
-    margin-top: 50px;
+    margin-top: 120px;
   }
 
   .nav {
     display: none;
   }
 
-  .heroSection .container .row .col-lg-5 {
-    display: flex;
-    justify-content: end;
-  }
   .joinShop .container .row .col-md-6 p {
     font-size: 20px;
   }
@@ -1772,17 +1667,6 @@ body::-webkit-scrollbar {
   }
   .nav .containerMenuCat {
     display: none;
-  }
-  .heroSection {
-    margin-top: 40px;
-  }
-  .heroSection .container .row .col-md-5 img {
-    height: 98%;
-    width: 100%;
-  }
-  .heroSection .container .row .col-md-7 h1 {
-    font-size: 35px;
-    text-align: center;
   }
 
   .detailPages .container .row .col-md-12 p {
@@ -1797,11 +1681,7 @@ body::-webkit-scrollbar {
   .Popular {
     margin-top: 120px;
   }
-  .searchInput {
-    input {
-      width: 200px;
-    }
-  }
+
   .navbar {
     height: 80px;
     .navbar-items {
@@ -1818,7 +1698,7 @@ body::-webkit-scrollbar {
     display: block;
   }
   .offcanvas.offcanvas-start {
-    width: 500px;
+    width: 100%;
   }
   .tokoPages {
     margin-top: 75px;
@@ -1826,20 +1706,20 @@ body::-webkit-scrollbar {
   .product {
     margin-top: 120px;
   }
+  .searchMenu {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+  }
+  .searchInput {
+    width: 450px;
+    input {
+      width: 200px;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  .heroSection .container .row .col-md-7 h1 {
-    font-size: 50px;
-  }
-  .heroSection .container .row .col-md-5 {
-    display: flex;
-    justify-content: center;
-  }
-  .heroSection .container .row .col-md-5 img {
-    width: 85%;
-    height: 90%;
-  }
   .joinShop .container .row .col-md-6 {
     margin-top: 20px;
   }
@@ -1869,39 +1749,22 @@ body::-webkit-scrollbar {
     display: block;
   }
   .searchInput {
-    margin-bottom: 20px;
-  }
-  .searchInput input {
-    width: 280px;
+    width: 300px;
+    input {
+      width: 200px;
+    }
   }
 }
 
 @media only screen and (max-width: 576px) {
-  .heroSection .container .row .col-md-7 h1 {
-    font-size: 50px;
-  }
-  .TrendingCategories .container .row .col-md-3 .card span,
-  .TrendingCategories .container .row .col-6 .card span {
-    font-size: 16px;
-  }
   .footer .container {
     padding: 50px 20px;
-  }
-  .heroSection .container .row .col-md-5 img {
-    width: 86%;
-  }
-  .heroSection .container .row .col-md-5 {
-    display: flex;
-    justify-content: center;
   }
 
   .signin .container .row .col-lg-5 .formSignin .titlePertanyaan h5 {
     font-size: 17px;
   }
 
-  .heroSection {
-    margin-top: 30px;
-  }
   .mobile {
     display: block;
   }
@@ -1959,16 +1822,18 @@ body::-webkit-scrollbar {
   .tokoPages .container .row .userCard {
     max-width: 350px;
   }
+  .offcanvas-body .menuNav {
+    display: none;
+  }
+  .searchInput {
+    width: 85%;
+    input {
+      width: 80%;
+    }
+  }
 }
 
 @media only screen and (max-width: 427px) {
-  .heroSection .container .row .col-md-7 h1 {
-    font-size: 35px;
-    text-align: center;
-  }
-  .TrendingCategories .container .row h2 {
-    font-size: 23px;
-  }
   .joinShop .container .row .col-md-6 p {
     font-size: 18px;
   }
@@ -1976,13 +1841,6 @@ body::-webkit-scrollbar {
     font-size: 26px;
   }
 
-  .heroSection .container .row .col-md-5 img {
-    width: 86%;
-    height: 100%;
-  }
-  .heroSection .container .row .col-md-7 {
-    margin-top: 20px;
-  }
   .searchInput {
     width: 310px;
 

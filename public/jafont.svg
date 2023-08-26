@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="585" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Cascadia Mono">
+		<font-face-src>
+			<font-face-name name="Cascadia Mono Regular"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="J" horiz-adv-x="585" d="M280.333 -9.83341c-76.1671,0 -135,21.3336 -176.332,63.8335 -41.3349,42.4999 -61.9995,101.999 -61.9995,178.501l101.498 0c0,-48.8354 12.1692,-86.8339 36.5018,-113.834 24.1654,-27.0001 58.4987,-40.5015 102.665,-40.5015 43.0017,0 76.1671,13.3342 99.502,40.167 23.1648,27.0001 34.8322,65.0014 34.8322,114.168l0 460.832 101.5 0 0 -460.832c0,-76.8332 -20.9991,-136.5 -63.0001,-178.835 -42.001,-42.3327 -100.333,-63.499 -175.167,-63.499zm-41.0004 610.499l0 92.6676 227.501 0 0 -92.6676 -227.501 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Cascadia Mono";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#332C2B}
+    .fil2 {fill:#19C3D4}
+    .fil1 {fill:#19C3D4}
+    .fnt0 {font-weight:normal;font-size:3527.77px;font-family:'Cascadia Mono'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <text x="2907" y="12235"  class="fil0 fnt0">J</text>
+  <path class="fil1" d="M4362 11583c11,-51 16,-107 16,-169l0 -234 358 0 0 234c0,60 -4,116 -11,169l-363 0z"/>
+  <polygon class="fil2" points="4378,10770 4378,10366 4736,10366 4736,10770 "/>
+  <path class="fil1" d="M3896 12269c-63,0 -123,-4 -179,-12l0 -327c55,19 118,29 187,29 82,0 154,-14 216,-42l0 332c-69,13 -144,20 -224,20z"/>
+ </g>
+</svg>

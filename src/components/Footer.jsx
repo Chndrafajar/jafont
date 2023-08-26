@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -29,10 +30,15 @@ const Footer = () => {
           <div className="col-lg-2">
             <h2>COMPANY</h2>
             <div className="menu">
-              <span>About</span>
-              <span>Brand</span>
-              <span>Privacy Policy</span>
-              <span>Careers</span>
+              <NavLink to="/about" className="link">
+                About
+              </NavLink>
+              <NavLink to="/privacy" className="link">
+                Privacy Policy
+              </NavLink>
+              <NavLink to="/terms-condition" className="link">
+                Terms and Condition
+              </NavLink>
             </div>
           </div>
           <div className="col-lg-2">
