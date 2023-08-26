@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="copyright">
-        <h3>Copyright © 2023 Logo, a Dribbble company. All rights reserved.</h3>
+        <h3>Copyright © 2023 TeamKreatifid Company. All rights reserved.</h3>
       </div>
     </div>
   );
