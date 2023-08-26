@@ -560,7 +560,6 @@ body::-webkit-scrollbar {
   display: none;
   z-index: 999;
   background-color: #fff;
-  border-top: 1px solid #0002;
 
   ul {
     display: flex;
@@ -1632,6 +1631,10 @@ body::-webkit-scrollbar {
   padding: 0px;
   margin-top: 120px;
 
+  hr {
+    border: 1px solid #0003;
+  }
+
   .copyright {
     height: 55px;
     display: flex;
@@ -1820,6 +1823,9 @@ body::-webkit-scrollbar {
   .tokoPages {
     margin-top: 75px;
   }
+  .product {
+    margin-top: 120px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1900,7 +1906,7 @@ body::-webkit-scrollbar {
     display: block;
   }
   .footer {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
   .blogs .container .row .col-lg-9 h2 {
     font-size: 30px;
@@ -1942,9 +1948,6 @@ body::-webkit-scrollbar {
     font-size: 18px;
   }
 
-  .product {
-    margin-top: 40px;
-  }
   .Popular .container .row .col-sm-6 .card .card-body .name h5,
   .Popular .container .row .col-lg-3 .col-12 .card .card-body .name h5 {
     font-size: 25px;
