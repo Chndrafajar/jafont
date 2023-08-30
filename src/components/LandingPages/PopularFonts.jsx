@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Produk } from '../../data';
 
 import { NavLink } from 'react-router-dom';
@@ -14,7 +14,21 @@ import '../../assets/swiper.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
 
+//react placeholder
+import ContentLoader, { List, BulletList, Instagram, Code } from 'react-content-loader';
+
 const PopularFonts = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const t = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+    return () => {
+      clearTimeout(t);
+    };
+  }, []);
+
   return (
     <div className="Popular ">
       <div className="container ">
