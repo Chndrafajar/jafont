@@ -83,7 +83,7 @@ const Privacy = () => {
           <div className="col-12">
             <h4>Kontak Kami:</h4>
             <p>
-              Jafont Marketplace Email: <span style={{ color: '#19c3d4' }}>support@jafont.com</span>
+              Jafont Marketplace Email: <span style={{ color: '#36489e' }}>support@jafont.com</span>
             </p>
             <p>Telepon: [Nomor Telepon]</p>
           </div>
