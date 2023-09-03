@@ -113,7 +113,7 @@ const Product = () => {
             <div className="modal-content">
               <div className="modal-header">
                 <div className="modal-title fs-5" id="exampleModalLabel">
-                  <img src="/images/logoJafont.png" alt="" width="80px" />
+                  <img src="/images/logo.png" alt="" width="80px" />
                 </div>
                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
               </div>

@@ -12,19 +12,13 @@ import NavMobile from './NavMobile';
 import NavbarOffcanvas from './NavbarOffcanvas';
 
 const Navbar = () => {
-  const currentUser = {
-    id: 1,
-    username: 'Anna',
-    isSeller: true,
-  };
-
   return (
     <>
       <nav className="navbar  navbar-expand-lg ">
         <div className="navbar-items">
           <div className="container">
             <NavLink className="navbar-brand">
-              <img src="/images/logoJafont.png" alt="" />
+              <img src="/images/logo.png" alt="" />
             </NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
               <HiMiniBars3 />

@@ -117,8 +117,8 @@
             padding: 0px 15px;
             border: none;
             background: none;
-            border: 1.5px solid #19c3d4;
-            color: #19c3d4;
+            border: 1.5px solid #36489e;
+            color: #36489e;
             font-weight: 600;
             border-radius: 3px;
 
@@ -127,7 +127,7 @@
             }
           }
           button:hover {
-            background-color: #19c3d4;
+            background-color: #36489e;
             transition: all 0.5s ease-in-out;
             color: #fff;
           }
@@ -201,7 +201,7 @@ body::-webkit-scrollbar {
 
   .fol {
     padding: 5px 20px;
-    background-color: #19c3d4;
+    background-color: #36489e;
     border: none;
     color: white;
     border-radius: 3px;
@@ -218,9 +218,9 @@ body::-webkit-scrollbar {
   .mes {
     padding: 5px 20px;
     border-radius: 3px;
-    border: 2px solid #19c3d4;
+    border: 2px solid #36489e;
     background-color: #fff;
-    color: #19c3d4;
+    color: #36489e;
     font-weight: 600;
   }
 }
@@ -228,7 +228,7 @@ body::-webkit-scrollbar {
 .btnPrimary {
   padding: 10px 10px;
   border: none;
-  background-color: #19c3d4;
+  background-color: #36489e;
   color: #fff;
   border-radius: 30px;
   font-weight: 500;
@@ -318,7 +318,7 @@ body::-webkit-scrollbar {
 }
 
 .signupModal {
-  margin: 10px 10px;
+  margin: 5px;
 }
 
 .collapse {
@@ -345,10 +345,10 @@ body::-webkit-scrollbar {
       }
       .login {
         background-color: inherit;
-        color: #19c3d4;
+        color: #36489e;
       }
       .signup {
-        background-color: #19c3d4;
+        background-color: #36489e;
         color: #fff;
       }
     }
@@ -498,8 +498,8 @@ body::-webkit-scrollbar {
           padding: 0px 15px;
           border: none;
           background: none;
-          border: 1.5px solid #19c3d4;
-          color: #19c3d4;
+          border: 1.5px solid #36489e;
+          color: #36489e;
           font-weight: 600;
           font-size: 14px;
           border-radius: 3px;
@@ -508,7 +508,7 @@ body::-webkit-scrollbar {
           }
         }
         button:hover {
-          background-color: #19c3d4;
+          background-color: #36489e;
           transition: all 0.5s ease-in-out;
           color: #fff;
         }
@@ -588,7 +588,7 @@ body::-webkit-scrollbar {
         font-size: 23px;
       }
       svg:hover {
-        color: #19c3d4;
+        color: #36489e;
         border-radius: 50%;
         transition: all 0.5s ease-in;
       }
@@ -608,7 +608,7 @@ body::-webkit-scrollbar {
       margin-bottom: 3px;
 
       .link.active {
-        color: #19c3d4;
+        color: #36489e;
       }
     }
   }
@@ -635,10 +635,10 @@ body::-webkit-scrollbar {
       }
       .login {
         background-color: inherit;
-        color: #19c3d4;
+        color: #36489e;
       }
       .signup {
-        background-color: #19c3d4;
+        background-color: #36489e;
         color: #fff;
       }
     }
@@ -720,7 +720,7 @@ body::-webkit-scrollbar {
             margin-bottom: 10px;
           }
           span {
-            color: #45cfdd;
+            color: #36489e;
             font-size: 13px;
             font-style: normal;
             font-weight: 600;
@@ -756,7 +756,7 @@ body::-webkit-scrollbar {
           line-height: normal;
         }
         a {
-          color: #45cfdd;
+          color: #36489e;
           font-size: 24px;
           font-style: normal;
           font-weight: 600;
@@ -1034,9 +1034,9 @@ body::-webkit-scrollbar {
           .add {
             padding: 10px;
             border-radius: 3px;
-            border: 2px solid #19c3d4;
+            border: 2px solid #36489e;
             background-color: #fff;
-            color: #19c3d4;
+            color: #36489e;
             font-weight: 600;
             font-size: 20px;
             margin-top: 20px;
@@ -1045,7 +1045,7 @@ body::-webkit-scrollbar {
             padding: 10px;
             border-radius: 3px;
             border: none;
-            background-color: #19c3d4;
+            background-color: #36489e;
             color: #fff;
             font-weight: 600;
             font-size: 20px;
@@ -1218,7 +1218,7 @@ body::-webkit-scrollbar {
               cursor: pointer;
             }
             span {
-              color: #19c3d4;
+              color: #36489e;
               letter-spacing: 1.5px;
               font-size: 16px;
               cursor: pointer;
@@ -1254,9 +1254,9 @@ body::-webkit-scrollbar {
         }
 
         button {
-          border: 1px solid #19c3d4;
+          border: 1px solid #36489e;
           background-color: #fff;
-          color: #19c3d4;
+          color: #36489e;
           padding: 5px 15px;
         }
       }
@@ -1346,7 +1346,7 @@ body::-webkit-scrollbar {
               font-weight: 500;
             }
             .list-group-item:hover {
-              color: #19c3d4;
+              color: #36489e;
               cursor: pointer;
               transition: 0.3s all ease-in-out;
             }
@@ -1420,10 +1420,10 @@ body::-webkit-scrollbar {
           }
           .nav-link:hover {
             transition: 0.3s ease-in-out;
-            color: #19c3d4;
+            color: #36489e;
           }
           .nav-link.active {
-            color: #19c3d4;
+            color: #36489e;
           }
         }
       }
@@ -1513,10 +1513,10 @@ body::-webkit-scrollbar {
         }
         button {
           padding: 8px 10px;
-          background-color: #19c3d4;
+          background-color: #36489e;
           color: #fff;
           font-weight: 600;
-          border: 1.5px solid #19c3d4;
+          border: 1.5px solid #36489e;
         }
       }
       .selectToko {
@@ -1603,12 +1603,12 @@ body::-webkit-scrollbar {
             line-height: normal;
           }
           a:hover {
-            color: #19c3d4;
+            color: #36489e;
             cursor: pointer;
             transition: all 0.4s ease-in-out;
           }
           .link.active {
-            color: #19c3d4;
+            color: #36489e;
           }
         }
       }
@@ -1873,5 +1873,8 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 375px) {
   .tokoPages .container .row .userCard {
     max-width: 330px;
+  }
+  form .titlePertanyaan h5 {
+    font-size: 16px;
   }
 }

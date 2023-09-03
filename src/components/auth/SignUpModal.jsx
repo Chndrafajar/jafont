@@ -8,10 +8,13 @@ const SignUpModal = () => {
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content rounded-5">
           <div className="modal-header">
+            <div className="modal-title fs-5" id="exampleModalLabel">
+              <img src="/images/logo.png" alt="" width="80px" />
+            </div>
             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
           </div>
           <div className="modal-body signupModal">
-            <h3 className="titleSignin">Sign Up to Creative</h3>
+            <h3 className="titleSignin">Sign Up to Jafont</h3>
             <form action="" className="formSignin">
               <div className="inputStyle">
                 <div style={{ display: 'flex', justifyContent: 'space-between', gap: '20px' }}>

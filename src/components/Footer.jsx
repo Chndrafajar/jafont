@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <img src="/images/logoJafont.png" alt="" className="logo" />
+            <img src="/images/logo.png" alt="" className="logo" />
             <p>sell your designs worldwide and reach millions of buyers</p>
             <div className="sosialIcons">
               <img src="/icons/ig.svg" alt="" />

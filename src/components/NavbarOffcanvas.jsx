@@ -9,7 +9,7 @@ const NavbarOffcanvas = () => {
     <div className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabIndex={-1} id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
       <div className="offcanvas-header">
         <h5 className="offcanvas-title" id="offcanvasScrollingLabel">
-          <img src="/images/logoJafont.png" alt="" width="80px" />
+          <img src="/images/logo.png" alt="" width="80px" />
         </h5>
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
       </div>
