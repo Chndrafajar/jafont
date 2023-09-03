@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import { BiSearch } from 'react-icons/bi';
 import { FaCartArrowDown } from 'react-icons/fa';
+import { HiMiniBars3 } from 'react-icons/hi2';
 import { categories } from '../data';
 
 import SignUpModal from './auth/SignUpModal';
@@ -26,7 +27,7 @@ const Navbar = () => {
               <img src="/images/logoJafont.png" alt="" />
             </NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-              <span className="navbar-toggler-icon" />
+              <HiMiniBars3 />
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <div className="searchInput">

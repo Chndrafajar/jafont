@@ -56,7 +56,7 @@ const TokoPages = () => {
         </div>
         <div className="row">
           {tokoPages?.produkToko.map((p) => (
-            <div className="col-sm-6 col-lg-4 col-xxl-3 col-12" key={p.id}>
+            <div className="col-sm-6 col-xl-3 col-lg-4 col-12" key={p.id}>
               <div className="card">
                 <div className="itemsProfil">
                   <img src={p.img} alt="" />

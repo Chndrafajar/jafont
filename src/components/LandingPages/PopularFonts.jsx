@@ -58,7 +58,7 @@ const PopularFonts = () => {
               slidesPerView: 3,
               spaceBetween: 25,
             },
-            1400: {
+            1200: {
               spaceBetween: 25,
               slidesPerView: 4,
             },
