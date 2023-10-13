@@ -5,21 +5,21 @@ import { NavLink } from 'react-router-dom';
 import { BiSolidStar } from 'react-icons/bi';
 import { FaCartArrowDown } from 'react-icons/fa';
 
-const StaffPicks = () => {
+const NewRelease = () => {
   return (
     <>
-      <div className="staffPicks">
+      <div className="newRelease">
         <div className="container">
           <div className="row">
             <div className="title">
-              <h2>Staff Picks</h2>
+              <h2>New Release</h2>
               <NavLink className="link" to="/c/oke">
                 Explore <FiChevronRight />
               </NavLink>
             </div>
           </div>
           <div className="row">
-            {Produk?.staffPick.map((p) => (
+            {Produk?.newRelease.map((p) => (
               <div className="col-sm-6 col-xl-3 col-lg-4 col-12" key={p.id}>
                 <div className="card">
                   <div className="itemsProfil">
@@ -78,4 +78,4 @@ const StaffPicks = () => {
   );
 };
 
-export default StaffPicks;
+export default NewRelease;

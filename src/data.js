@@ -1,38 +1,38 @@
 export const categories = [
   {
     id: 1,
+    name: 'Sans',
+    slug: 'sans',
+  },
+  {
+    id: 2,
     name: 'Serif',
     slug: 'serif',
   },
   {
-    id: 2,
-    name: 'Sans Serif',
-    slug: 'sansserif',
-  },
-  {
     id: 3,
-    name: 'Scripts',
-    slug: 'scripts',
+    name: 'Slab',
+    slug: 'slab',
   },
   {
     id: 4,
-    name: 'Symbols',
-    slug: 'symbols',
+    name: 'Display',
+    slug: 'display',
   },
   {
     id: 5,
-    name: 'Blackletter',
-    slug: 'blackletter',
+    name: 'Script',
+    slug: 'script',
   },
   {
     id: 6,
-    name: 'Slab Serif',
-    slug: 'slabserif',
+    name: 'Mono',
+    slug: 'mono',
   },
   {
     id: 7,
-    name: 'Handwriting',
-    slug: 'handwriting',
+    name: 'Variable',
+    slug: 'variable',
   },
 ];
 
@@ -172,7 +172,7 @@ export const Produk = {
       imgToko: '/produk/profil.jpg',
     },
   ],
-  StaffPick: [
+  newRelease: [
     {
       id: 1,
       name: 'Bison - A Powerful Sans Serif',
@@ -225,8 +225,10 @@ export const Produk = {
       img: '/produk/produk1.png',
       imgToko: '/produk/profil.jpg',
     },
+  ],
+  staffPick: [
     {
-      id: 5,
+      id: 1,
       name: 'Bison - A Powerful Sans Serif',
       slug: 'bison - a powerful sans serif',
       totalStars: 12,
@@ -239,7 +241,7 @@ export const Produk = {
       imgToko: '/produk/profil.jpg',
     },
     {
-      id: 6,
+      id: 2,
       name: 'Bison - A Powerful Sans Serif',
       slug: 'bison - a powerful sans serif',
       totalStars: 12,
@@ -248,11 +250,11 @@ export const Produk = {
       price: 20,
       nameToko: 'Ellen luf',
       categories: 'Fonts',
-      img: '/produk/produk1.png',
+      img: '/produk/produk2.jpg',
       imgToko: '/produk/profil.jpg',
     },
     {
-      id: 7,
+      id: 3,
       name: 'Bison - A Powerful Sans Serif',
       slug: 'bison - a powerful sans serif',
       totalStars: 12,
@@ -261,11 +263,11 @@ export const Produk = {
       price: 20,
       nameToko: 'Ellen luf',
       categories: 'Fonts',
-      img: '/produk/produk1.png',
+      img: '/produk/produk4.jpg',
       imgToko: '/produk/profil.jpg',
     },
     {
-      id: 8,
+      id: 4,
       name: 'Bison - A Powerful Sans Serif',
       slug: 'bison - a powerful sans serif',
       totalStars: 12,

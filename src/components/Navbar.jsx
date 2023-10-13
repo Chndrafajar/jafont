@@ -44,13 +44,41 @@ const Navbar = () => {
           <div className="menu">
             <div className="container">
               <ul className="navbar-nav">
-                {categories.map((c) => (
-                  <li className="nav-item">
-                    <NavLink to="/c/oke" className="nav-link">
-                      {c.name}
-                    </NavLink>
-                  </li>
-                ))}
+                <li className="nav-item">
+                  <NavLink to="/c/oke" className="nav-link sans">
+                    {categories[0].name}
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/c/oke" className="nav-link serif">
+                    {categories[1].name}
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/c/oke" className="nav-link slab">
+                    {categories[2].name}
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/c/oke" className="nav-link display">
+                    {categories[3].name}
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/c/oke" className="nav-link script">
+                    {categories[4].name}
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/c/oke" className="nav-link mono">
+                    {categories[5].name}
+                  </NavLink>
+                </li>
+                {/* <li className="nav-item">
+                  <NavLink to="/c/oke" className="nav-link variable">
+                    {categories[6].name}
+                  </NavLink>
+                </li> */}
               </ul>
             </div>
           </div>

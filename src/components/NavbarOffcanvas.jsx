@@ -15,13 +15,36 @@ const NavbarOffcanvas = () => {
       </div>
       <div className="offcanvas-body">
         <ul className="list-group mb-2">
-          {categories?.map((c) => (
-            <li key={c.id} className="list-group-item" data-bs-dismiss="offcanvas" aria-label="Close">
-              <NavLink className="link" to="/c/123">
-                {c.name}
-              </NavLink>
-            </li>
-          ))}
+          <li key={categories[0]?.id} className="list-group-item" data-bs-dismiss="offcanvas" aria-label="Close">
+            <NavLink className="link sans" to="/c/123">
+              {categories[0]?.name}
+            </NavLink>
+          </li>
+          <li key={categories[1]?.id} className="list-group-item" data-bs-dismiss="offcanvas" aria-label="Close">
+            <NavLink className="link serif" to="/c/123">
+              {categories[1]?.name}
+            </NavLink>
+          </li>
+          <li key={categories[2]?.id} className="list-group-item" data-bs-dismiss="offcanvas" aria-label="Close">
+            <NavLink className="link slab" to="/c/123">
+              {categories[2]?.name}
+            </NavLink>
+          </li>
+          <li key={categories[3]?.id} className="list-group-item" data-bs-dismiss="offcanvas" aria-label="Close">
+            <NavLink className="link display" to="/c/123">
+              {categories[3]?.name}
+            </NavLink>
+          </li>
+          <li key={categories[4]?.id} className="list-group-item" data-bs-dismiss="offcanvas" aria-label="Close">
+            <NavLink className="link script" to="/c/123">
+              {categories[4]?.name}
+            </NavLink>
+          </li>
+          <li key={categories[5]?.id} className="list-group-item" data-bs-dismiss="offcanvas" aria-label="Close">
+            <NavLink className="link mono" to="/c/123">
+              {categories[5]?.name}
+            </NavLink>
+          </li>
         </ul>
 
         <div className="searchMenu">

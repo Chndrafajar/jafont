@@ -1,15 +1,18 @@
 import React from 'react';
-import PopularFonts from '../components/LandingPages/PopularFonts';
 
 import BlogsSlide from '../components/LandingPages/BlogsSlide';
 import JoinShop from '../components/LandingPages/JoinShop';
-import Fonts from '../components/LandingPages/Fonts';
+
+import SpecialOffers from '../components/LandingPages/SpecialOffers';
+import NewRelease from '../components/LandingPages/NewRelease';
+import StaffPicks from '../components/LandingPages/StaffPicks';
 
 const HomePage = () => {
   return (
     <>
-      <PopularFonts />
-      <Fonts />
+      <SpecialOffers />
+      <NewRelease />
+      <StaffPicks />
       <BlogsSlide />
       <JoinShop />
     </>

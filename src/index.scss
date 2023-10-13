@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@400;500;600&family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;500;600&family=Roboto+Mono:wght@400;500;600&family=Roboto+Slab:wght@400;500;600&display=swap');
+
 .col-sm-6,
 .col-lg-4,
 .col-xxl-3,
@@ -273,6 +275,25 @@ body::-webkit-scrollbar {
               border: 1.5px solid #eef0f5;
               font-weight: 500;
               font-size: 15px;
+              color: #000;
+            }
+            .sans {
+              font-family: 'Open Sans', sans-serif;
+            }
+            .serif {
+              font-family: 'PT Serif', serif;
+            }
+            .slab {
+              font-family: 'Roboto Slab', serif;
+            }
+            .display {
+              font-family: 'Playfair Display', serif;
+            }
+            .script {
+              font-family: 'Kaushan Script', cursive;
+            }
+            .mono {
+              font-family: 'Roboto Mono', monospace;
             }
             .nav-link:hover {
               transition: all 0.5s ease-in-out;
@@ -607,6 +628,25 @@ body::-webkit-scrollbar {
       border: none;
       margin-bottom: 3px;
 
+      .sans {
+        font-family: 'Open Sans', sans-serif;
+      }
+      .serif {
+        font-family: 'PT Serif', serif;
+      }
+      .slab {
+        font-family: 'Roboto Slab', serif;
+      }
+      .display {
+        font-family: 'Playfair Display', serif;
+      }
+      .script {
+        font-family: 'Kaushan Script', cursive;
+      }
+      .mono {
+        font-family: 'Roboto Mono', monospace;
+      }
+
       .link.active {
         color: #36489e;
       }
@@ -648,8 +688,9 @@ body::-webkit-scrollbar {
 // akhir navbar scss
 
 // Fonts
-.Fonts {
-  margin-top: 40px;
+.newRelease,
+.staffPicks {
+  margin-top: 10px;
   .container {
     .row {
       .title {
@@ -667,7 +708,7 @@ body::-webkit-scrollbar {
         }
 
         a {
-          color: #45cfdd;
+          color: #36489e;
           text-align: center;
           font-size: 20px;
           font-style: normal;
